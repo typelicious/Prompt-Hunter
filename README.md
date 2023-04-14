@@ -1,15 +1,26 @@
-# Prompt hunter 提示词收集助手
+# Prompt Hunter – Prompt Collection Assistant
 ![iRIKaE.png](https://i.328888.xyz/2023/04/08/iRIKaE.png)
-主要功能是将Midjourney详情页的提示词图片以及其他信息保存到你自己的Notion数据库中方便检索、查找和分析。
-## 如何使用
-1. 复制我这个Notion页面模版，可以增加字段单需要保留我原先的这三个字段，模版地址：https://sugared-impala-dc6.notion.site/a4cb4f48db4a466783259720f6bce83f?v=72b3be124de44f8b9110b88eb69138f7
-2. 注册一个Notion API，进入地址之后按引导注释就行，填写完名字和选择生效空间就可以了。注册号之后复制备用。注册地址：https://www.notion.so/my-integrations
-3. 之后需要在需要生效的Notion页面把你的API拉进去，具体步骤是点页面右上角的三个点，在Connections中点击Add connections里面找到你刚才创建的API名称点确定。
-4. 填写Notion页面链接，就是你点页面右上角的分享获取的链接
-5. 下载压缩包后解压
-6. 进入Chrome浏览器扩展管理，打开开发者模式
-7. 选择加载解压缩扩展来加载Prompt hunter文件夹的扩展
-8. 加载扩展后首次使用需要点击扩展，打开设置页面将你获取到的Notion API KEY和页面ID输入进去保存。
-9. 需要保存时就点击扩展中的保存到Notion按钮就可以了
 
-**注意**：这个插件只能在Midjourney官网的项目详情页用，也就是这个地址https://www.midjourney.com/app/jobs/*
+The main function is to save the prompt images and other information from Midjourney detail pages to your own Notion database for easy retrieval, finding and analysis.
+
+## How to use
+
+1. Copy the Notion page template, you can add fields and keep my original three fields, template address: https://sugared-impala-dc6.notion.site/a4cb4f48db4a466783259720f6bce83f?v= 72b3be124de44f8b9110b88eb69138f7
+
+2. Register a Notion API, after entering the address, just press the guidance notes, fill in the name and select the effective space on it. Copy the backup after the registration number. Registration address: https://www.notion.so/my-integrations
+
+3. After that, you need to pull in your API in the Notion page, and the specific steps are to click the three dots in the upper right corner of the page, and click Add connections in Connections to find the API name you just created and click OK.
+
+4. Fill in the Notion page link, which is the link you can get by clicking Share on the top right corner of the page.
+
+5. Download the zip package and unzip it
+
+6. Go to Chrome Extensions Manager and open Developer Mode
+
+7. Select Load unzip extension to load the extension in Prompt hunter folder
+
+8. After loading the extension for the first time, you need to click on the extension, open the settings page to enter the Notion API KEY and page ID you have obtained and save it. 9.
+
+9. Click the Save to Notion button in the extension when you need to save it.
+
+**Note**: This plugin can only be used on the project details page of the Midjourney website, which is located at https://www.midjourney.com/app/jobs/*
