@@ -1,8 +1,8 @@
 document.getElementById("saveButton").addEventListener("click", async () => {
-  // 延迟以确保 content script 已加载
+  // Delay to ensure content script is loaded
   await new Promise((resolve) => setTimeout(resolve, 100));
 
-  // 向 content script 发送消息，请求保存操作
+  // Send a message to the content script requesting a save operation
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
     chrome.tabs.sendMessage(tabs[0].id, { action: "saveToNotion" }, (response) => {
       const statusElement = document.getElementById("status");
