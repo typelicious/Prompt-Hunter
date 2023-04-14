@@ -7,10 +7,10 @@ document.getElementById("saveButton").addEventListener("click", async () => {
     chrome.tabs.sendMessage(tabs[0].id, { action: "saveToNotion" }, (response) => {
       const statusElement = document.getElementById("status");
       if (chrome.runtime.lastError) {
-        statusElement.textContent = "Error: 保存失败";
+        statusElement.textContent = "Error: Could not save";
         console.error(chrome.runtime.lastError);
       } else {
-        statusElement.textContent = "成功: 已保存到 Notion";
+        statusElement.textContent = "Success: Saved to Notion";
         console.log(response);
       }
       setTimeout(() => {
